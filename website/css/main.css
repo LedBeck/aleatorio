@@ -58,7 +58,8 @@ div#general{
 }
 
 .formulario{
-    width: 50%;
+    width: 598px;
+    height: 408px;
     min-width: 150px;
     max-width: 100%;
     margin: auto;
@@ -76,15 +77,15 @@ div#general{
     display: block;
     margin: 10px;
     width: :100%;
-    font-size: 1.3em;}
-    
+    font-size: 1.3em;
+    left: 50%;
+    transform: translate(50%, -50%)
 }
 .formulario__submit{
     display: block;
     margin: 0px;
     width: :100%;
-    font-size: 1.3em;}
-    
+    font-size: 1.3em;
 }
 .formulario__input{
     display: block;
@@ -106,7 +107,8 @@ div#general{
 }
 .down-arrow {
     clear: both;
-    border: solid black;
+    border: solid gray;
+    border-radius: .7px;
   border-width: 0 1px 1px 0;
   display: inline-block;
   padding: 3px;
@@ -116,3 +118,4 @@ div#general{
     margin-left: 50%;
     
 }
+
