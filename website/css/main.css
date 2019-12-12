@@ -22,13 +22,19 @@ h2{
     
     
 }
+.container{
+    height: 100%;
+    margin-top: 30px;
+}
+.first-section{
+}
 div#general{
     width: 100%;
-    height: 512px;
+    height: 760px;
     background-color: darkgrey;
     margin-bottom: 15px;
 }
-div#animation-left{
+#animation-left{
     width: 50%;
     height: 250px;
     float: left;
@@ -44,14 +50,11 @@ div#animation-left{
     margin-bottom: 15px;
 }
 
-div#animation-full{
+#animation-full{
+    clear: both;
     width: 100%;
-    height: 362px;
-
-    padding-top: 30px;
-    
+    height: 250px; 
     background-color: darkgray;
-    margin-top: 15px;
 }
 
 .formulario{
@@ -95,4 +98,21 @@ div#animation-full{
     padding-left: 0;
     z-index: 0;
 }
-
+.arrow-container{
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.down-arrow {
+    clear: both;
+    border: solid black;
+  border-width: 0 1px 1px 0;
+  display: inline-block;
+  padding: 3px;
+    //rota la flecha
+  transform: scale(6) rotate(45deg); 
+  -webkit-transform: scale(6) rotate(45deg);
+    margin-left: 50%;
+    
+}
