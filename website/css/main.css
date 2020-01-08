@@ -80,6 +80,7 @@ div#general{
     font-size: 1.3em;
     left: 50%;
     transform: translate(50%, -50%)
+        
 }
 .formulario__submit{
     display: block;
