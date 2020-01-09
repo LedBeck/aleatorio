@@ -8,6 +8,7 @@
    box-sizing: border-box;    
 }
 
+
 body{
     margin: 32px;
     font-family: sans-serif;
@@ -93,7 +94,7 @@ div#general{
     padding: 0px;
     text-align: center: 
     background: transparent;
-    
+     
     border: 1px solid rgba(0,0,0,0.3);
 }
 .formulario__label{
